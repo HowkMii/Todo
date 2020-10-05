@@ -8,7 +8,7 @@
 }
 
 .container {
-  background: linear-gradient(100deg, rgb(182, 40, 111) 50%, #ac2066 0);
+    background-color: #292f38;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -76,7 +76,7 @@
   border-radius: 10px;
 }
 
-.task-input {
+.todo-input {
   width: 350px;
   min-width: 250px;
   padding: 15px 10px 10px 20px;
@@ -99,7 +99,7 @@
   margin: 10px;
 }
 
-.add-task-btn {
+.add-todo-btn {
   min-width: 100px;
   background-color: #790e43;
   color: #ccc;
@@ -123,7 +123,7 @@
   color: #999;
 }
 
-.task-btn {
+.todo-btn {
   cursor: pointer;
   background-color: transparent;
   border: none;
@@ -138,7 +138,7 @@
 
 .btn-edit i {
   font-size: 16px;
-  color: #bbb;
+  color: rgb(255, 255, 255);
   margin-right: 20px;
 }
 
@@ -156,8 +156,8 @@
   cursor: pointer;
 }
 
-.no-tasks {
-  color: #777;
+.no-todos {
+  color: rgb(245, 245, 245);
   text-align: center;
   font-size: 18px;
   margin-top: 20px;
