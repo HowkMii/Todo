@@ -7,8 +7,7 @@
   padding: 0;
 }
 
-.container {
-    background-color: #292f38;
+.container {  background-color: #292f38;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -28,7 +27,7 @@
 }
 
 .header h1 {
-  color: #ccc;
+  color: rgb(238, 238, 238);
   font-weight: 300;
   text-align: center;
   margin: 50px 20px 60px 20px;
@@ -59,20 +58,19 @@
   overflow-y: auto;
 }
 
-/* width */
+
 ::-webkit-scrollbar {
   width: 10px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
   border-radius: 10px;
   background-color: #aaa;
 }
 
-/* Handle */
+
 ::-webkit-scrollbar-thumb {
-  background: #444;
+  background: rgb(255, 255, 255);
   border-radius: 10px;
 }
 
@@ -83,7 +81,7 @@
   margin-right: 10px;
   font-family: 'Josefin Sans', serif;
   font-size: 15px;
-  color: #ccc;
+  color: rgb(255, 255, 255);
   background-color: #1d222b;
   border: 1px solid #444;
   outline: none;
@@ -102,7 +100,7 @@
 .add-todo-btn {
   min-width: 100px;
   background-color: #790e43;
-  color: #ccc;
+  color: rgb(255, 255, 255);
   border: none;
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
@@ -120,7 +118,7 @@
 }
 
 .list-item span {
-  color: #999;
+  color: rgb(255, 255, 255);
 }
 
 .todo-btn {
@@ -132,7 +130,7 @@
 
 .btn-delete i {
   font-size: 16px;
-  color: #bbb;
+  color: rgb(255, 255, 255);
   margin-right: 20px;
 }
 
@@ -146,7 +144,7 @@
   width: 100px;
   height: 35px;
   background-color: #790e43;
-  color: #ccc;
+  color: rgb(255, 255, 255);
   border: none;
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
@@ -157,7 +155,7 @@
 }
 
 .no-todos {
-  color: rgb(245, 245, 245);
+  color: rgb(255, 255, 255);
   text-align: center;
   font-size: 18px;
   margin-top: 20px;

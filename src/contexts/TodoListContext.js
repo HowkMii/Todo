@@ -19,17 +19,17 @@ const TodoListContextProvider = props => {
     setTodos([...todos, { title, id: uuid() }])
   }
 
-  
+ 
   const removeTodo = id => {
     setTodos(todos.filter(todo => todo.id !== id))
   }
 
-  
+ 
   const clearList = () => {
     setTodos([])
   }
 
- 
+
   const findItem = id => {
     const item = todos.find(todo => todo.id === id)
 
