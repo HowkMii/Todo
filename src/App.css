@@ -94,12 +94,12 @@
 }
 
 .btn {
-  margin: 10px;
+  margin: 40px;
 }
 
 .add-todo-btn {
   min-width: 100px;
-  background-color: #790e43;
+  background-color: #0d7377;
   color: rgb(255, 255, 255);
   border: none;
   font-family: 'Montserrat', sans-serif;
@@ -143,7 +143,7 @@
 .clear-btn {
   width: 100px;
   height: 35px;
-  background-color: #790e43;
+  background-color: #0d7377;
   color: rgb(255, 255, 255);
   border: none;
   font-family: 'Montserrat', sans-serif;
